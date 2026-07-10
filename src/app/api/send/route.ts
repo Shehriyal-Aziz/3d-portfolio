@@ -52,9 +52,10 @@ export async function POST(req: Request) {
       }) as React.ReactElement,
     });
 
-    if (resendError) {
-      return Response.json({ error: "Failed to send email" }, { status: 500 });
-    }
+  if (resendError) {
+  console.log("RESEND ERROR:", resendError);
+  return Response.json({ error: "Failed to send email" }, { status: 500 });
+}
 
     return Response.json(resendData);
   } catch (error) {

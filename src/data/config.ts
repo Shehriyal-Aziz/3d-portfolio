@@ -1,45 +1,41 @@
 const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+  title: "Shehriyal Aziz | Full-Stack Developer",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: "Explore the portfolio of Shehriyal Aziz, a Full Stack Developer from Karachi, Pakistan focused on the MERN stack and modern web applications. With a solid foundation in HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind, MySQL, and Laravel, I build dynamic web apps and also run Elfo Innovations, a web development and digital marketing agency. Explore my projects and let's build something amazing together!",
     short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Portfolio of Shehriyal Aziz, a Full Stack Developer from Karachi building modern web apps with the MERN stack.",
   },
   keywords: [
-    "Naresh",
+    "Shehriyal Aziz",
     "portfolio",
     "full-stack developer",
-    "creative technologist",
+    "MERN developer",
+    "web developer Pakistan",
+    "Karachi developer",
+    "Elfo Innovations",
     "web development",
-    "3D animations",
-    "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
-    "GSAP",
     "React",
     "Next.js",
-    "Spline",
-    "Framer Motion",
+    "Laravel",
+    "SEO",
   ],
-  author: "Naresh Khatri",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
+  author: "Shehriyal Aziz",
+  email: "shehriyalaziz38@gmail.com",
+  site: "https://shehriyalaziz.vercel.app",
 
   // for github stars button
-  githubUsername: "naresh-khatri",
+  githubUsername: "Shehriyal-Aziz",
   githubRepo: "3d-portfolio",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    twitter: "https://x.com/Shehriyalaziz",
+    linkedin: "https://www.linkedin.com/in/shehriyal-aziz",
+    instagram: "https://www.instagram.com/_.sherry._x/",
+    facebook: "https://www.facebook.com/profile.php?id=61577105013351",
+    github: "https://github.com/Shehriyal-Aziz/",
   },
 };
 export { config };

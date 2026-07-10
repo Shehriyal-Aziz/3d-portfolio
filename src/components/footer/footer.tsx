@@ -6,8 +6,13 @@ import SocialMediaButtons from "../social/social-media-icons";
 import { config } from "@/data/config";
 
 function CopyrightYear() {
-  const year = new Date().getFullYear();
-  return <>{year}</>;
+  const [year, setYear] = React.useState<number | null>(null);
+  
+  React.useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
+  return <>{year ?? ""}</>;
 }
 
 function Footer() {

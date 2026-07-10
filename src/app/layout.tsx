@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk, Unbounded } from "next/font/google";
 import "./globals.css";
 import { config } from "@/data/config";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import Script from "next/script";
 import SiteFrame from "@/components/site-frame";
@@ -86,6 +87,7 @@ export default function RootLayout({
         {process.env.NEXT_PUBLIC_GA_ID && (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
         )}
+        <SpeedInsights />
       </body>
     </html>
   );
